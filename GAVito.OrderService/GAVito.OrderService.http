@@ -1,0 +1,6 @@
+@GAVito.OrderService_HostAddress = http://localhost:5250
+
+GET {{GAVito.OrderService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

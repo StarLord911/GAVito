@@ -1,4 +1,7 @@
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +11,10 @@ builder.Services.AddSwaggerGen(c =>
 });
 
 builder.Services.AddControllers();
+builder.Services.AddMediatR(cfg =>
+{
+    cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly());
+});
 
 var app = builder.Build();
 

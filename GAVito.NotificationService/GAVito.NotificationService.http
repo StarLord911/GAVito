@@ -1,0 +1,6 @@
+@GAVito.NotificationService_HostAddress = http://localhost:5288
+
+GET {{GAVito.NotificationService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
