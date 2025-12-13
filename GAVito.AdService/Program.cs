@@ -6,6 +6,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddMediatR(cfg =>
     cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly()));
 
+//builder.Services.AddDbContext<OrderDbContext>(options =>
+//    options.UseInMemoryDatabase("OrdersDb"));
 
 builder.Services.AddMassTransit(x =>
 {
@@ -39,9 +41,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
-
 app.MapControllers();
 
 app.Run();

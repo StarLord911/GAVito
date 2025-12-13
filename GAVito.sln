@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GAVito.OrderService", "GAVi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GAVito.NotificationService", "GAVito.NotificationService\GAVito.NotificationService.csproj", "{91ED095D-3AB1-4832-BD36-EB47FE16DDB5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GAVito.AdService", "GAVito.AdService\GAVito.AdService.csproj", "{84C38D98-C70F-41A4-8AB3-A9840B38CFF0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,10 @@ Global
 		{91ED095D-3AB1-4832-BD36-EB47FE16DDB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91ED095D-3AB1-4832-BD36-EB47FE16DDB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91ED095D-3AB1-4832-BD36-EB47FE16DDB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84C38D98-C70F-41A4-8AB3-A9840B38CFF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84C38D98-C70F-41A4-8AB3-A9840B38CFF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84C38D98-C70F-41A4-8AB3-A9840B38CFF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84C38D98-C70F-41A4-8AB3-A9840B38CFF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +66,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{679DC6EC-8D19-4E67-B03C-F2545B3531F0} = {C4E70655-5C46-4A99-81EF-4F0D73311CF2}
 		{91ED095D-3AB1-4832-BD36-EB47FE16DDB5} = {C4E70655-5C46-4A99-81EF-4F0D73311CF2}
+		{84C38D98-C70F-41A4-8AB3-A9840B38CFF0} = {C4E70655-5C46-4A99-81EF-4F0D73311CF2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1B0EBA4B-F721-4F42-997A-2CEF0210BAD9}
